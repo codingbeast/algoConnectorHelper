@@ -1,2 +1,4 @@
 python setup.py sdist
 pip install dist/algoconnectorhelper-0.1.0.tar.gz
+
+twine upload dist/*
